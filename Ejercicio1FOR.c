@@ -6,7 +6,7 @@ int main()
 	printf("Cuantos numeros quieres que imprima: ");
 	scanf("%d", &num);
 	for (cont=1;cont<=num;cont=cont){
-		printf("%d",cont);
+		printf("%d ",cont);
 		printf("-%d ",cont);
 		cont++;
 	}
